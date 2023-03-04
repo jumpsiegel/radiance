@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "leaderschedule",
     srcs = ["epoch.go"],
-    importpath = "go.firedancer.io/radiance/pkg/leaderschedule",
+    importpath = "github.com/jumpsiegel/radiance/pkg/leaderschedule",
     visibility = ["//visibility:public"],
     deps = [
         "//proto/env/v1:env",

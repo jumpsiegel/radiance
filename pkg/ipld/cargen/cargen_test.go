@@ -16,8 +16,8 @@ import (
 	"github.com/ipld/go-car"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.firedancer.io/radiance/pkg/blockstore"
-	"go.firedancer.io/radiance/pkg/shred"
+	"github.com/jumpsiegel/radiance/pkg/blockstore"
+	"github.com/jumpsiegel/radiance/pkg/shred"
 	"k8s.io/klog/v2"
 )
 

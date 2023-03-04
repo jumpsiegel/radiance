@@ -7,7 +7,7 @@ go_library(
         "shred.go",
         "shredder.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/shred",
+    importpath = "github.com/jumpsiegel/radiance/pkg/shred",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_gagliardetto_binary//:binary",

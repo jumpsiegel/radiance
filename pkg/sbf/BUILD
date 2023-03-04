@@ -13,7 +13,7 @@ go_library(
         "verifier.go",
         "vm.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/sbf",
+    importpath = "github.com/jumpsiegel/radiance/pkg/sbf",
     visibility = ["//visibility:public"],
     deps = ["@com_github_spaolacci_murmur3//:murmur3"],
 )

@@ -12,11 +12,11 @@ import (
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/rpc"
 	"github.com/gagliardetto/solana-go/rpc/ws"
-	"go.firedancer.io/radiance/pkg/blockhash"
-	"go.firedancer.io/radiance/pkg/clusternodes"
-	"go.firedancer.io/radiance/pkg/envfile"
-	"go.firedancer.io/radiance/pkg/leaderschedule"
-	envv1 "go.firedancer.io/radiance/proto/env/v1"
+	"github.com/jumpsiegel/radiance/pkg/blockhash"
+	"github.com/jumpsiegel/radiance/pkg/clusternodes"
+	"github.com/jumpsiegel/radiance/pkg/envfile"
+	"github.com/jumpsiegel/radiance/pkg/leaderschedule"
+	envv1 "github.com/jumpsiegel/radiance/proto/env/v1"
 	"k8s.io/klog/v2"
 )
 

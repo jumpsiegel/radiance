@@ -6,7 +6,7 @@ go_library(
         "runtime.go",
         "serde.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/runtime",
+    importpath = "github.com/jumpsiegel/radiance/pkg/runtime",
     visibility = ["//visibility:public"],
     deps = ["@com_github_gagliardetto_binary//:binary"],
 )

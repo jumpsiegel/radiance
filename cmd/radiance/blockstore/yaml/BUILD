@@ -6,7 +6,7 @@ go_library(
         "shreds.go",
         "yaml.go",
     ],
-    importpath = "go.firedancer.io/radiance/cmd/radiance/blockstore/yaml",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance/blockstore/yaml",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/radiance/blockstore/util",

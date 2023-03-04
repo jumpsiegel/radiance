@@ -11,10 +11,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.firedancer.io/radiance/pkg/blockstore"
-	"go.firedancer.io/radiance/pkg/ipld/car"
-	"go.firedancer.io/radiance/pkg/ipld/ipldgen"
-	"go.firedancer.io/radiance/pkg/shred"
+	"github.com/jumpsiegel/radiance/pkg/blockstore"
+	"github.com/jumpsiegel/radiance/pkg/ipld/car"
+	"github.com/jumpsiegel/radiance/pkg/ipld/ipldgen"
+	"github.com/jumpsiegel/radiance/pkg/shred"
 	"k8s.io/klog/v2"
 )
 

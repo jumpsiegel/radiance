@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "ipldgen",
     srcs = ["ipldgen.go"],
-    importpath = "go.firedancer.io/radiance/pkg/ipld/ipldgen",
+    importpath = "github.com/jumpsiegel/radiance/pkg/ipld/ipldgen",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/ipld/car",

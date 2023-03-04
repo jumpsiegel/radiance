@@ -1,7 +1,7 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 load("@com_github_bazelbuild_buildtools//buildifier:def.bzl", "buildifier")
 
-# gazelle:prefix go.firedancer.io/radiance
+# gazelle:prefix github.com/jumpsiegel/radiance
 # gazelle:build_file_name BUILD
 gazelle(name = "gazelle")
 

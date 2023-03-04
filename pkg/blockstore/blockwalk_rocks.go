@@ -7,7 +7,7 @@ import (
 	"sort"
 
 	"github.com/linxGnu/grocksdb"
-	"go.firedancer.io/radiance/pkg/shred"
+	"github.com/jumpsiegel/radiance/pkg/shred"
 	"k8s.io/klog/v2"
 )
 

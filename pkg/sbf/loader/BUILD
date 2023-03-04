@@ -9,7 +9,7 @@ go_library(
         "parse.go",
         "relocate.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/sbf/loader",
+    importpath = "github.com/jumpsiegel/radiance/pkg/sbf/loader",
     visibility = ["//visibility:public"],
     deps = ["//pkg/sbf"],
 )

@@ -14,7 +14,7 @@ go_library(
         "transaction.go",
         "types.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/gossip",
+    importpath = "github.com/jumpsiegel/radiance/pkg/gossip",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_gagliardetto_solana_go//:solana-go",

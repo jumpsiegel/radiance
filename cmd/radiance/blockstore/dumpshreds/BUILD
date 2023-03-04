@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "dumpshreds",
     srcs = ["dumpshreds.go"],
-    importpath = "go.firedancer.io/radiance/cmd/radiance/blockstore/dumpshreds",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance/blockstore/dumpshreds",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/radiance/blockstore/util",

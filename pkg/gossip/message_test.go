@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.firedancer.io/radiance/fixtures"
+	"github.com/jumpsiegel/radiance/fixtures"
 )
 
 func TestMessage(t *testing.T) {

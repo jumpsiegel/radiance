@@ -5,7 +5,7 @@ import (
 	"time"
 
 	bin "github.com/gagliardetto/binary"
-	"go.firedancer.io/radiance/pkg/runtime"
+	"github.com/jumpsiegel/radiance/pkg/runtime"
 )
 
 // Dumping ground for handwritten serialization boilerplate.

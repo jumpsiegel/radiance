@@ -7,7 +7,7 @@ go_library(
         "genesis.go",
         "serde.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/genesis",
+    importpath = "github.com/jumpsiegel/radiance/pkg/genesis",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/archiveutil",

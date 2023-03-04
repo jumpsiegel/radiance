@@ -16,7 +16,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/vbauerster/mpb/v8"
 	"github.com/vbauerster/mpb/v8/decor"
-	"go.firedancer.io/radiance/pkg/blockstore"
+	"github.com/jumpsiegel/radiance/pkg/blockstore"
 	"golang.org/x/sync/errgroup"
 	"k8s.io/klog/v2"
 )

@@ -6,7 +6,7 @@ go_library(
         "verifydata.go",
         "worker.go",
     ],
-    importpath = "go.firedancer.io/radiance/cmd/radiance/blockstore/verifydata",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance/blockstore/verifydata",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/blockstore",

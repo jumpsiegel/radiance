@@ -8,7 +8,7 @@ go_library(
         "ipldsch_satisfaction.go",
         "ipldsch_types.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/ipld/ipldsch",
+    importpath = "github.com/jumpsiegel/radiance/pkg/ipld/ipldsch",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_ipld_go_ipld_prime//datamodel",

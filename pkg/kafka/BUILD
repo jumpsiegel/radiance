@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "kafka",
     srcs = ["kafka.go"],
-    importpath = "go.firedancer.io/radiance/pkg/kafka",
+    importpath = "github.com/jumpsiegel/radiance/pkg/kafka",
     visibility = ["//visibility:public"],
     deps = [
         "//proto/env/v1:env",

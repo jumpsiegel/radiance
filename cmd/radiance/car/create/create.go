@@ -9,10 +9,10 @@ import (
 
 	"github.com/pkg/profile"
 	"github.com/spf13/cobra"
-	"go.firedancer.io/radiance/pkg/ipld/cargen"
+	"github.com/jumpsiegel/radiance/pkg/ipld/cargen"
 	"k8s.io/klog/v2"
 
-	"go.firedancer.io/radiance/pkg/blockstore"
+	"github.com/jumpsiegel/radiance/pkg/blockstore"
 )
 
 var Cmd = cobra.Command{

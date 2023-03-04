@@ -11,7 +11,7 @@ go_library(
         "syscalls_log.go",
         "syscalls_misc.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/sealevel",
+    importpath = "github.com/jumpsiegel/radiance/pkg/sealevel",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/sbf",

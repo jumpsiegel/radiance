@@ -8,10 +8,10 @@ import (
 	"os/signal"
 
 	"github.com/spf13/cobra"
-	"go.firedancer.io/radiance/cmd/radiance/blockstore"
-	"go.firedancer.io/radiance/cmd/radiance/car"
-	"go.firedancer.io/radiance/cmd/radiance/gossip"
-	"go.firedancer.io/radiance/cmd/radiance/replay"
+	"github.com/jumpsiegel/radiance/cmd/radiance/blockstore"
+	"github.com/jumpsiegel/radiance/cmd/radiance/car"
+	"github.com/jumpsiegel/radiance/cmd/radiance/gossip"
+	"github.com/jumpsiegel/radiance/cmd/radiance/replay"
 	"k8s.io/klog/v2"
 
 	// Load in instruction pretty-printing

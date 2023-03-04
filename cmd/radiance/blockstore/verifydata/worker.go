@@ -10,7 +10,7 @@ import (
 
 	"github.com/linxGnu/grocksdb"
 	"github.com/vbauerster/mpb/v8"
-	"go.firedancer.io/radiance/pkg/blockstore"
+	"github.com/jumpsiegel/radiance/pkg/blockstore"
 	"k8s.io/klog/v2"
 )
 

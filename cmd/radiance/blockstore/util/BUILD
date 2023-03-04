@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "util",
     srcs = ["ints.go"],
-    importpath = "go.firedancer.io/radiance/cmd/radiance/blockstore/util",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance/blockstore/util",
     visibility = ["//visibility:public"],
 )
 

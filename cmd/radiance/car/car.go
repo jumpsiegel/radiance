@@ -4,8 +4,8 @@ package car
 
 import (
 	"github.com/spf13/cobra"
-	"go.firedancer.io/radiance/cmd/radiance/car/create"
-	"go.firedancer.io/radiance/cmd/radiance/car/dump"
+	"github.com/jumpsiegel/radiance/cmd/radiance/car/create"
+	"github.com/jumpsiegel/radiance/cmd/radiance/car/dump"
 )
 
 var Cmd = cobra.Command{

@@ -11,7 +11,7 @@ Bazel manages Go and C/C++ toolchains and all dependencies.
 Radiance commands can be built with standard Go tooling (Go >= 1.19 is required),
 for example:
 
-    go run go.firedancer.io/radiance/cmd/radiance
+    go run github.com/jumpsiegel/radiance/cmd/radiance
 
 By default, commands that require extra dependencies (e.g. RocksDB) are disabled.
 
@@ -45,4 +45,4 @@ Finally, build the `radiance` command with the `rocksdb` tag:
     export CGO_CFLAGS="-I$(pwd)/third_party/rocksdb/include"
     export CGO_LDFLAGS="-L$(pwd)/third_party/rocksdb"
 
-    go run -tags=rocksdb go.firedancer.io/radiance/cmd/radiance
+    go run -tags=rocksdb github.com/jumpsiegel/radiance/cmd/radiance

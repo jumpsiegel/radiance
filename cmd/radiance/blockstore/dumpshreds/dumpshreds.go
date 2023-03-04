@@ -12,8 +12,8 @@ import (
 
 	"github.com/linxGnu/grocksdb"
 	"github.com/spf13/cobra"
-	"go.firedancer.io/radiance/cmd/radiance/blockstore/util"
-	"go.firedancer.io/radiance/pkg/blockstore"
+	"github.com/jumpsiegel/radiance/cmd/radiance/blockstore/util"
+	"github.com/jumpsiegel/radiance/pkg/blockstore"
 	"k8s.io/klog/v2"
 )
 

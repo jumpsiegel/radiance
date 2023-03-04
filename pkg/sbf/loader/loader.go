@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"go.firedancer.io/radiance/pkg/sbf"
+	"github.com/jumpsiegel/radiance/pkg/sbf"
 )
 
 // TODO Fuzz

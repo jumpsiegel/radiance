@@ -6,7 +6,7 @@ go_library(
         "car.go",
         "writer.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/ipld/car",
+    importpath = "github.com/jumpsiegel/radiance/pkg/ipld/car",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_filecoin_project_go_leb128//:go-leb128",

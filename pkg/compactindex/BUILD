@@ -13,7 +13,7 @@ go_library(
         "@platforms//os:linux": ["fallocate_linux.go"],
         "//conditions:default": ["fallocate_generic.go"],
     }),
-    importpath = "go.firedancer.io/radiance/pkg/compactindex",
+    importpath = "github.com/jumpsiegel/radiance/pkg/compactindex",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_cespare_xxhash_v2//:xxhash",

@@ -8,7 +8,7 @@ import (
 	"os"
 
 	bin "github.com/gagliardetto/binary"
-	"go.firedancer.io/radiance/pkg/archiveutil"
+	"github.com/jumpsiegel/radiance/pkg/archiveutil"
 )
 
 // ReadGenesisFromFile is a convenience wrapper for ReadGenesisFromArchive.

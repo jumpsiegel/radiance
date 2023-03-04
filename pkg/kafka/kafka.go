@@ -7,7 +7,7 @@ import (
 
 	"github.com/twmb/franz-go/pkg/kgo"
 	"github.com/twmb/franz-go/pkg/sasl/scram"
-	envv1 "go.firedancer.io/radiance/proto/env/v1"
+	envv1 "github.com/jumpsiegel/radiance/proto/env/v1"
 )
 
 func NewClientFromEnv(env *envv1.Kafka, opts ...kgo.Opt) (*kgo.Client, error) {

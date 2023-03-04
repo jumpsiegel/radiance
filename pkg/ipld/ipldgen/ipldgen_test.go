@@ -8,7 +8,7 @@ import (
 	"github.com/multiformats/go-multihash"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.firedancer.io/radiance/pkg/ipld/car"
+	"github.com/jumpsiegel/radiance/pkg/ipld/car"
 )
 
 func TestCIDLen(t *testing.T) {

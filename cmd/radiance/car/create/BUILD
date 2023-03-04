@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "create",
     srcs = ["create.go"],
-    importpath = "go.firedancer.io/radiance/cmd/radiance/car/create",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance/car/create",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/blockstore",

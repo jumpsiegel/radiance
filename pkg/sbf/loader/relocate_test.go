@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"go.firedancer.io/radiance/pkg/sbf"
+	"github.com/jumpsiegel/radiance/pkg/sbf"
 )
 
 func TestSymbolHash_Entrypoint(t *testing.T) {

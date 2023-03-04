@@ -2,8 +2,8 @@ package gossip
 
 import (
 	"github.com/spf13/cobra"
-	"go.firedancer.io/radiance/cmd/radiance/gossip/ping"
-	"go.firedancer.io/radiance/cmd/radiance/gossip/pull"
+	"github.com/jumpsiegel/radiance/cmd/radiance/gossip/ping"
+	"github.com/jumpsiegel/radiance/cmd/radiance/gossip/pull"
 )
 
 var Cmd = cobra.Command{

@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "radiance_lib",
     srcs = ["main.go"],
-    importpath = "go.firedancer.io/radiance/cmd/radiance",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance",
     tags = ["manual"],
     visibility = ["//visibility:private"],
     deps = [

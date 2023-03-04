@@ -21,7 +21,7 @@ import (
 	"golang.org/x/crypto/acme/autocert"
 	"k8s.io/klog/v2"
 
-	"go.firedancer.io/radiance/pkg/util"
+	"github.com/jumpsiegel/radiance/pkg/util"
 )
 
 var (

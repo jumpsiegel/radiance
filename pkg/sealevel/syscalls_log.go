@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/gagliardetto/solana-go"
-	"go.firedancer.io/radiance/pkg/sbf"
-	"go.firedancer.io/radiance/pkg/sbf/cu"
+	"github.com/jumpsiegel/radiance/pkg/sbf"
+	"github.com/jumpsiegel/radiance/pkg/sbf/cu"
 )
 
 func SyscallLogImpl(vm sbf.VM, ptr, strlen uint64, cuIn int) (r0 uint64, cuOut int, err error) {

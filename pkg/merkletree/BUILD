@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "merkletree",
     srcs = ["merkletree.go"],
-    importpath = "go.firedancer.io/radiance/pkg/merkletree",
+    importpath = "github.com/jumpsiegel/radiance/pkg/merkletree",
     visibility = ["//visibility:public"],
 )
 

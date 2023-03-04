@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.firedancer.io/radiance/fixtures"
-	"go.firedancer.io/radiance/pkg/sbf"
-	"go.firedancer.io/radiance/pkg/sbf/loader"
+	"github.com/jumpsiegel/radiance/fixtures"
+	"github.com/jumpsiegel/radiance/pkg/sbf"
+	"github.com/jumpsiegel/radiance/pkg/sbf/loader"
 )
 
 func TestExecute_Memo(t *testing.T) {

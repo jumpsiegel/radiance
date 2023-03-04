@@ -7,7 +7,7 @@ import (
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
-	"go.firedancer.io/radiance/pkg/tpu"
+	"github.com/jumpsiegel/radiance/pkg/tpu"
 	"log"
 	"sort"
 )

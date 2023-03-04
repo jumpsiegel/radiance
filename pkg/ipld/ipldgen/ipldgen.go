@@ -6,9 +6,9 @@ import (
 	"github.com/gagliardetto/solana-go"
 	"github.com/ipld/go-ipld-prime/datamodel"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"go.firedancer.io/radiance/pkg/ipld/car"
-	"go.firedancer.io/radiance/pkg/ipld/ipldsch"
-	"go.firedancer.io/radiance/pkg/shred"
+	"github.com/jumpsiegel/radiance/pkg/ipld/car"
+	"github.com/jumpsiegel/radiance/pkg/ipld/ipldsch"
+	"github.com/jumpsiegel/radiance/pkg/shred"
 )
 
 // Multicodec IDs of Solana-related IPLD blocks.

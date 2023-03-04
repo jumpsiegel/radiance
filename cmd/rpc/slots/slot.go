@@ -13,11 +13,11 @@ import (
 	"github.com/gagliardetto/solana-go/rpc/ws"
 	"github.com/golang/protobuf/proto"
 	"github.com/twmb/franz-go/pkg/kgo"
-	"go.firedancer.io/radiance/pkg/envfile"
-	"go.firedancer.io/radiance/pkg/kafka"
-	"go.firedancer.io/radiance/pkg/leaderschedule"
-	envv1 "go.firedancer.io/radiance/proto/env/v1"
-	networkv1 "go.firedancer.io/radiance/proto/network/v1"
+	"github.com/jumpsiegel/radiance/pkg/envfile"
+	"github.com/jumpsiegel/radiance/pkg/kafka"
+	"github.com/jumpsiegel/radiance/pkg/leaderschedule"
+	envv1 "github.com/jumpsiegel/radiance/proto/env/v1"
+	networkv1 "github.com/jumpsiegel/radiance/proto/network/v1"
 	"k8s.io/klog/v2"
 )
 

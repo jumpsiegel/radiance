@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "gossip",
     srcs = ["gossip.go"],
-    importpath = "go.firedancer.io/radiance/cmd/radiance/gossip",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance/gossip",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd/radiance/gossip/ping",

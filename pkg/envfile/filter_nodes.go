@@ -3,7 +3,7 @@ package envfile
 import (
 	"strings"
 
-	"go.firedancer.io/radiance/proto/env/v1"
+	"github.com/jumpsiegel/radiance/proto/env/v1"
 )
 
 func ParseOnlyFlag(only string) []string {

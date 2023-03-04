@@ -6,7 +6,7 @@ go_library(
         "env.go",
         "filter_nodes.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/envfile",
+    importpath = "github.com/jumpsiegel/radiance/pkg/envfile",
     visibility = ["//visibility:public"],
     deps = [
         "//proto/env/v1:env",

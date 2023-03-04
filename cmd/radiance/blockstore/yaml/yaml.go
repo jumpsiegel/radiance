@@ -10,8 +10,8 @@ import (
 	"github.com/linxGnu/grocksdb"
 	"github.com/segmentio/textio"
 	"github.com/spf13/cobra"
-	"go.firedancer.io/radiance/cmd/radiance/blockstore/util"
-	"go.firedancer.io/radiance/pkg/blockstore"
+	"github.com/jumpsiegel/radiance/cmd/radiance/blockstore/util"
+	"github.com/jumpsiegel/radiance/pkg/blockstore"
 	"gopkg.in/yaml.v3"
 	"k8s.io/klog/v2"
 )

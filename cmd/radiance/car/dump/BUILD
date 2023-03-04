@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "dump",
     srcs = ["dump.go"],
-    importpath = "go.firedancer.io/radiance/cmd/radiance/car/dump",
+    importpath = "github.com/jumpsiegel/radiance/cmd/radiance/car/dump",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/ipld/ipldgen",

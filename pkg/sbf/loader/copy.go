@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"go.firedancer.io/radiance/pkg/sbf"
+	"github.com/jumpsiegel/radiance/pkg/sbf"
 )
 
 // The following ELF loading rules seem mostly arbitrary.

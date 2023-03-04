@@ -14,7 +14,7 @@ go_library(
         "shreds.go",
         "shreds_rocks.go",
     ],
-    importpath = "go.firedancer.io/radiance/pkg/blockstore",
+    importpath = "github.com/jumpsiegel/radiance/pkg/blockstore",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/shred",

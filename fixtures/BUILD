@@ -6,7 +6,7 @@ go_library(
         "fixtures.go",
         "shreds.go",
     ],
-    importpath = "go.firedancer.io/radiance/fixtures",
+    importpath = "github.com/jumpsiegel/radiance/fixtures",
     visibility = ["//visibility:public"],
     deps = ["@com_github_stretchr_testify//require"],
 )

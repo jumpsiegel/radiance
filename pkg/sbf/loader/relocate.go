@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"go.firedancer.io/radiance/pkg/sbf"
+	"github.com/jumpsiegel/radiance/pkg/sbf"
 )
 
 // relocate applies ELF relocations (for syscalls and position-independent code).

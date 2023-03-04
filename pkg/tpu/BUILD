@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "tpu",
     srcs = ["tpu.go"],
-    importpath = "go.firedancer.io/radiance/pkg/tpu",
+    importpath = "github.com/jumpsiegel/radiance/pkg/tpu",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_gagliardetto_binary//:binary",

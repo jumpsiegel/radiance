@@ -4,9 +4,9 @@ package blockstore
 
 import (
 	"github.com/spf13/cobra"
-	"go.firedancer.io/radiance/cmd/radiance/blockstore/dumpshreds"
-	"go.firedancer.io/radiance/cmd/radiance/blockstore/verifydata"
-	"go.firedancer.io/radiance/cmd/radiance/blockstore/yaml"
+	"github.com/jumpsiegel/radiance/cmd/radiance/blockstore/dumpshreds"
+	"github.com/jumpsiegel/radiance/cmd/radiance/blockstore/verifydata"
+	"github.com/jumpsiegel/radiance/cmd/radiance/blockstore/yaml"
 )
 
 var Cmd = cobra.Command{

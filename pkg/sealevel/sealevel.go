@@ -3,7 +3,7 @@ package sealevel
 import (
 	"bytes"
 
-	"go.firedancer.io/radiance/pkg/sbf"
+	"github.com/jumpsiegel/radiance/pkg/sbf"
 )
 
 type TxContext struct{}
