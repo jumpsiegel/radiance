@@ -1,4 +1,4 @@
-module go.firedancer.io/radiance
+module github.com/jumpsiegel/radiance
 
 go 1.19
 
